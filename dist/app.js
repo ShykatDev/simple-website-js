@@ -34,7 +34,7 @@ inpVal.addEventListener("input", () => {
     notRestrictedCards.forEach((el) => {
       el.classList.remove("hidden");
     });
-  } else if (val > 18) {
+  } else if (val >= 18) {
     restrictedCards.forEach((el) => {
       el.classList.remove("hidden");
     });
